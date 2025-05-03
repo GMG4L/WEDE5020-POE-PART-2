@@ -38,39 +38,95 @@
 </style>
 
 <h1>LK's Laundry Services</h1>   
+<html>
+<head>
+  <style>
+    /* Image row styles */
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background-color: #f5a40d;
+    }
 
+    .image-row img {
+      height: 200px;
+      width: 200px;
+      object-fit: contain;
+    }
 
-<body>
-  <div class="image-row">
-    <img src="../IMG/South African emblem.jpg" alt="Laundry Hub Logo">
-    <img src="../IMG/LK laundry.PNG" alt="Laundry Hub Logo">
-    <img src="../IMG/south-african-flag-1486137288VYk.jpg" alt="Laundry Hub Logo">
-  </div>
-</body>
-<style>
-.flex-container {
+    .flex-container {
   display: flex; 
   justify-content: center;
-  align-items: center;
-  height: 300px;
+  padding: 30px 70px 70px 70px; /* top, right, bottom, left */
   background-color: rgb(255, 255, 255);
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  color: rgb(0, 0, 0);
-  width: 700px;
-  height: 100px;
-}
-</style>
-<div class="flex-container">
-  <div><h2>Laundry Hub</h2>
 
+    /* Float image styles and clearfix */
+    .float-section div {
+      border: 3px solid #4CAF50;
+      padding: 70px;
+      margin-top: 30px;
+    }
 
-         <h3>Our Services</h3>
-          <h4>Our services are here to simply make your laundry life easier and cleaner.To issue our services is very easy, its either you sign up with your ID and home address or book our free services online at Laundry hub.org. 
-            Once ordered we will issue you a date on when we will pick up your Laundry this will usually be based on the neighbhourhood (Area Code)in which you stay.
-            The clothes will be returned on specific dates too or you can come to collect it live, this is all too keep order of clothes so that no clothes are lost or stole</h4></div>
+    .img1,
+    .img2 {
+      float: left;
+      margin-left: 15px;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Image Row at the Top -->
+  <div class="image-row">
+    <img src="../IMG/South African emblem.jpg" alt="South African Emblem">
+    <img src="../IMG/LK laundry.PNG" alt="Laundry Hub Logo">
+    <img src="../IMG/south-african-flag-1486137288VYk.jpg" alt="South African Flag">
+  </div>
+
+  <!-- Flex Container for Service Description -->
+  <div class="flex-container">
+    <div>
+      <h2>Laundry Hub</h2>
+      <h2>Our Services</h2>
+      <h3>
+        Our services are here to simply make your laundry life easier and cleaner.
+        To issue our services is very easy, you either sign up with your ID and home address or book our free services online at LaundryHub.org.
+        Once ordered, we will issue you a pickup date based on your neighborhood (Area Code).
+        Clothes will be returned on specific dates, or you may come to collect them live.
+        This process ensures that clothes are not lost or stolen. Our services are applicable to residents who earn lower than R5000 and are part of the working force of South Africa.
+      </h3>
+    </div>
+  </div>
+  <h1>Our Services Include:</h1>  
+
+  <!-- Floated Images with and without Clearfix -->
+  <div class="float-section">
+    
+    <h2>Cleaning</h2>
+    <p>Add the clearfix hack to the containing element to fix this problem:</p>
+    <div class="clearfix">
+      <img class="img2" src="../IMG/Washing machine.jpeg" alt="Pineapple" width="170" height="170">
+      Our Laundry services focus on cleaning clothes through a combination of specialized processes, 
+      equipment, and detergents designed to remove dirt, stains, odors, and bacteria, 
+      making our South Africans feel good while wearing their clothes   
+    </div>
+    <h2>Iventory</h2>
+    <p>Add the clearfix hack to the containing element to fix this problem:</p>
+    <div class="clearfix">
+      <img class="img2" src="../IMG/Our Services 2.jpg" alt="Pineapple" width="170" height="170">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+    </div>
+  </div>
+
 </body>
 </html>
-

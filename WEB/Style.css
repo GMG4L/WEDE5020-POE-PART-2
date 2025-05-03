@@ -1,0 +1,77 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px 50px 30px 5px;
+    overflow: hidden;
+    background-color: #23b3a7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    background-color: DodgerBlue;
+}
+
+
+.logo {
+    height: 70px;
+    padding: 35px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(255, 254, 254);
+  }
+  
+  .flex-container > div {
+    background-color: #23b3a7;
+    color: rgb(0, 0, 0);
+    width: 1100px;
+    height: 100px;
+    border-radius: 1px 7px;
+    
+  }
+  body {margin:15px;}
+        
+            .polaroid-row {
+                display: flex;
+                gap: 100px; /* Optional spacing between images */
+                flex-wrap: wrap; /* Allows wrapping on small screens */
+            }
+        
+            div.polaroid {
+                width: 40%;
+                background-color:#23b3a7;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 15px;
+            }
+        
+            div.container {
+                text-align: center;
+                padding: 10px 10px;
+            }
+            

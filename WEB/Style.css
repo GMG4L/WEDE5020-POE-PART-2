@@ -44,7 +44,8 @@ li a:hover:not(.active) {
     justify-content: center;
     align-items: center;
     height: 200px;
-    background-color: rgb(255, 254, 254);
+    width: 200px;
+    background-color: #f5a40d;
   }
   
   .flex-container > div {
@@ -55,7 +56,7 @@ li a:hover:not(.active) {
     border-radius: 1px 7px;
     
   }
-  body {margin:15px;}
+  body {margin:55px;}
         
             .polaroid-row {
                 display: flex;
@@ -74,13 +75,38 @@ li a:hover:not(.active) {
                 text-align: center;
                 padding: 10px 10px;
             }
+        .button {
+              background-color: #04AA6D; /* Green */
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              -webkit-transition-duration: 0.4s; /* Safari */
+              transition-duration: 0.4s;
+            }
             
+            .button1 {
+              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            }
+            
+            .button2:hover {
+              box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+          
+li {
+    float: center;
+} 
             .flex-container2 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 300px;
-                background-color: rgb(255, 255, 255);
+                background-color: #f5a40d;
               }
               
               .flex-container2 > div {
@@ -92,15 +118,17 @@ li a:hover:not(.active) {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 300px;
-                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 250px;
+                background-color: #ffffff;
               }
-              
+           
+
               .flex-container > div {
-                background-color: #f1f1f1;
+                background-color: #ffffff;
                 color: rgb(0, 0, 0);
                 width: 700px;
-                height: 100px;
+                height: 300px;
               } h1 {
                 text-align: center;
                 text-decoration-style: solid; /* this is default */

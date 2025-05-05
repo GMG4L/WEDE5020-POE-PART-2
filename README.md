@@ -8,3 +8,6 @@ Referance List: www.w3schools.com
                 https://pixabay.com/ [Accessed 1 April 2025]
                 www.Logomaker.com [Accessed 1 April 2025]
                 www.shecodes.com [Accessed 2 May 2025]
+Wesite pages on diffrent devices:
+
+![Laundry website ,Services page](https://github.com/user-attachments/assets/bb6d1e20-b5e0-4a55-ad1a-46f2ccdbe7cd)

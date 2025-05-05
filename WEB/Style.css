@@ -44,7 +44,6 @@ li a:hover:not(.active) {
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 200px;
     background-color: #f5a40d;
   }
   
@@ -55,6 +54,13 @@ li a:hover:not(.active) {
     height: 100px;
     border-radius: 1px 7px;
     
+  }
+  #example1 {
+    background-image: url('../IMG/washingmachine\ gif.gif'), url('img_flwr.gif');
+    background-position: left top, right top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 150px 150px; /* Adjust the size of img_flwr.gif here */
+    padding: 215px;
   }
   body {margin:55px;}
         
@@ -100,8 +106,8 @@ li a:hover:not(.active) {
           
 li {
     float: center;
-} 
-            .flex-container2 {
+}  
+    .flex-container2 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -113,25 +119,38 @@ li {
                 background-color: #000000;
                 color: rgb(12, 10, 10);
                 width: 100px;
-                height: 100px;
+                height: 200px;
               } .flex-container {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 50px;
-                width: 250px;
+                height: 350px;
                 background-color: #ffffff;
               }
-           
+              .flex-container2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                background-color: rgb(255, 255, 255);
+              }
+              
+              .flex-container2 > div {
+                background-color: #000000;
+                color: rgb(12, 10, 10);
+                width: 100px;
+                height: 100px;
+              }
 
               .flex-container > div {
                 background-color: #ffffff;
                 color: rgb(0, 0, 0);
-                width: 700px;
-                height: 300px;
+                width: 1700px;
+                height: 70px;
               } h1 {
                 text-align: center;
                 text-decoration-style: solid; /* this is default */
+                
                }img {
                 display: block;
                 margin: auto;
@@ -152,4 +171,76 @@ li {
                 width: 500px;
                 height: 300px;
               }
-               
+              .image-row {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                padding: 15px;
+                background-color: hsl(39, 92%, 51%);
+              }.image-row img {
+                height: 200px;
+                width: 200px;
+                object-fit: contain;
+              }   .flex-container {
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+            
+                background-color: rgb(255, 255, 255);
+              }
+              
+             
+              /* Float image styles and clearfix */
+              .float-section div {
+                border: 3px solid #4CAF50;
+                padding: 25px;
+                margin-top: 30px;
+              }
+          
+              .img1,
+              .img2 {
+                float: left;
+                margin-left: 15px;
+              }
+          
+              .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+              } input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+              }
+              
+              input[type=submit] {
+                width: 100%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #45a049;
+              }
+              
+              div {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+              } 
+              footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+              }

@@ -260,3 +260,14 @@ div {
   text-align: center;
   color: white;
               }
+@media(max-width:600px){}
+  main{ 
+    padding:20px;/*padding for main content on small screens*/
+    margin:0 10px;/*Margin on the sides for the main content*/
+}
+/*Responsive adjustments for screens with max width of 600px*/
+@media(max-width:600px){
+}
+  main{
+    padding:1rem,/*smaller padding for main content on small screens*/
+  }
